@@ -1,0 +1,2 @@
+streamlit=1.26.0
+pickleshare=0.7.5
