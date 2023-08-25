@@ -1,11 +1,11 @@
 import streamlit as st
-import pickle
+import joblib
 
 with open('LoanPredictionModel','rb') as f:
-    lr_model = pickle.load(f)
+    lr_model = joblib.load(f)
 
 with open('LoanPredictionPickleModel','rb') as f:
-    scaler_model = pickle.load(f)
+    scaler_model = joblib.load(f)
 
 st.title('Loan Prediction Model')
 
